@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTE Relay Client Test</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+      body {
+        margin-left: 5dvw;
+      }
+      code {
+        display: block;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+      }
+      pre {
+        font-family: monospace;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MTE Relay Server Test Client</h1>
+    <p>Please open the Developers Tools panel, and view the Network Tab.</p>
+    <br />
+    <form id="normal-request">
+      <h4>Normal Network Request</h4>
+      <button>Go</button>
+      <code><pre></pre></code>
+    </form>
+    <br />
+    <form id="mte-relay-request">
+      <h4>Request with MTE Relay</h4>
+      <button>Go</button>
+      <code><pre></pre></code>
+    </form>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
